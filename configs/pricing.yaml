@@ -1,0 +1,21 @@
+providers:
+
+  local:
+    input_cost_per_1k_tokens: 0.0
+    output_cost_per_1k_tokens: 0.0
+
+  openai:
+    input_cost_per_1k_tokens: 0.005
+    output_cost_per_1k_tokens: 0.015
+
+  groq:
+    input_cost_per_1k_tokens: 0.0002
+    output_cost_per_1k_tokens: 0.0002
+
+  gemini:
+    input_cost_per_1k_tokens: 0.00125
+    output_cost_per_1k_tokens: 0.005
+
+  anthropic:
+    input_cost_per_1k_tokens: 0.003
+    output_cost_per_1k_tokens: 0.015
