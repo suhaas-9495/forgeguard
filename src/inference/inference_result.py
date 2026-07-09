@@ -67,6 +67,24 @@ class InferenceResult:
     timestamp: str = ""
 
     request_id: Optional[str] = None
+    
+    request_id: str
+
+    status: str
+
+    error_message: str | None
+
+    provider: str
+
+    temperature: float
+
+    max_new_tokens: int
+
+    prompt: str
+
+    finish_reason: str
+
+    model_version: str
 
     def to_dict(self) -> dict:
         """
